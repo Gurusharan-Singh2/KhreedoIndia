@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+      "baseUrl": ".", // root of the monorepo or project
+    "paths": {
+        "@/*": ["src/*"],
+    "@/packages/*": ["../../packages/*"]
+    },
     "composite": true,
     "declarationMap": true,
     "emitDeclarationOnly": true,

@@ -75,5 +75,8 @@
         "command": "docker build -f apps/auth-service/Dockerfile . -t auth-service"
       }
     }
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
   }
 }

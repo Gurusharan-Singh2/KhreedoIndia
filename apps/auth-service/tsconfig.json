@@ -1,7 +1,11 @@
 {
   "extends": "../../tsconfig.base.json",
   "files": [],
-  "include": [],
+  "include": [
+    "**/*.ts",
+  "**/*.json"
+  
+  ],
   "references": [
     {
       "path": "./tsconfig.app.json"
@@ -9,5 +13,9 @@
     {
       "path": "./tsconfig.spec.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+         
+  }
 }
