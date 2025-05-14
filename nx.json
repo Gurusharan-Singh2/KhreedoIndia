@@ -28,5 +28,8 @@
         "serveTargetName": "serve"
       }
     }
-  ]
+  ],
+  "cli": {
+    "daemon": false
+  }
 }
