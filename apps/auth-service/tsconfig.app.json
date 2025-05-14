@@ -6,12 +6,12 @@
       "node"
     ],
     "rootDir": "src",
-    "tsBuildInfoFile": "dist/tsconfig.app.tsbuildinfo"
+    "tsBuildInfoFile": "dist/tsconfig.app.tsbuildinfo",
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
   "include": [
-    "src/**/*.ts",
-    "../../packages/**/*.ts",
-    "../../packages/**/*.js"
+    "src/**/*.ts"
   ],
   "exclude": [
     "out-tsc",
